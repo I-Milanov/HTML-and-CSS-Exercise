@@ -1,0 +1,63 @@
+@media all and (max-width: 942px) {
+  body {
+    width: 100%;
+  }
+  main .diploma-and-certificate {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  main .diploma-and-certificate-content {
+    margin-right: 0;
+    align-items: center;
+  }
+  main .diploma-and-certificate .diploma-and-certificate-img::after,
+  main .diploma-and-certificate .diploma-and-certificate-img::before {
+    width: 0;
+    height: 0;
+  }
+  body > main > section > article.diploma-and-certificate-img {
+    margin: 0;
+  }
+  body > main > section > article.diploma-and-certificate-img img {
+    max-width: 90vw;
+  }
+
+  main .certificate-and-certificate {
+    display: block;
+    align-items: center;
+  }
+  main .certificate-and-certificate-content {
+    margin-right: 0px;
+  }
+  main .certificate-and-certificate-img {
+    margin-top: 30px;
+    text-align: center;
+  }
+  main .certificate-and-certificate-img img {
+    position: initial;
+    max-width: 70vw;
+    padding: auto;
+  }
+
+  .career-assistance {
+    flex-direction: column;
+    align-items: center;
+  }
+  body > main > section.career-assistance > article.career-assistance-content {
+    margin-left: 0;
+    order: 1;
+  }
+
+  body > main > section.career-assistance > article.career-assistance-img {
+    order: 2;
+    margin-top: 20px;
+    max-width: 80vw;
+  }
+  body > main > section.career-assistance > article.career-assistance-img img {
+    width: 100%;
+  }
+  .career-assistance-content-button {
+    margin: auto;
+  }
+}

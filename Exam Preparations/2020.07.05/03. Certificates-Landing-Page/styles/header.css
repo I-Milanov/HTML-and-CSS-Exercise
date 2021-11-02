@@ -1,0 +1,37 @@
+.btn {
+  background: #9b5dc6;
+  padding: 8px 16px;
+  border-radius: 16px;
+  text-transform: capitalize;
+  color: white;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.44);
+}
+body > header > nav {
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.44);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw 4vw;
+  align-items: center;
+  background: white;
+}
+.nav-menu {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  margin: 0px 6px;
+}
+.nav-menu li {
+  margin: 0px 6px 0px 6px;
+}
+.nav-menu li a {
+  list-style-type: none;
+  color: #5c5970;
+  text-decoration: none;
+  font-weight: 600;
+}
+.nav-menu li:last-child > a {
+  color: white;
+  text-transform: capitalize;
+}

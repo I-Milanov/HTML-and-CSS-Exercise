@@ -1,0 +1,90 @@
+main .diploma-and-certificate {
+  display: flex;
+  align-items: center;
+  padding: 2vw 4vw;
+  overflow: hidden;
+}
+.diploma-and-certificate-content {
+  margin-right: 35px;
+}
+.diploma-and-certificate-content-title {
+  color: #5c5970;
+}
+.diploma-and-certificate-content-text-subtitle {
+  color: #746b73;
+  font-size: 12;
+  font-style: italic;
+}
+.diploma-and-certificate-img {
+  position: relative;
+}
+.diploma-and-certificate-img::before {
+  border-radius: 50%;
+  content: "";
+  background: #54536d;
+  width: 550px;
+  height: 550px;
+  position: absolute;
+  z-index: -1;
+  top: -300px;
+  left: -10px;
+}
+.diploma-and-certificate-img::after {
+  background: url(images/award.svg);
+  background-size: cover;
+  content: "";
+  width: 160px;
+  height: 240px;
+  position: absolute;
+  right: -50px;
+  top: -110px;
+}
+
+.certificate-and-certificate {
+  background: #14162b;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 3vw 4vw;
+  justify-content: space-between;
+}
+.certificate-and-certificate-content {
+  margin-right: 50px;
+}
+.certificate-and-certificate-img {
+  flex-basis: 45%;
+  position: relative;
+  min-width: 300px;
+}
+
+.certificate-and-certificate-img img {
+  position: absolute;
+  top: -90px;
+}
+
+.career-assistance {
+  display: flex;
+  align-items: center;
+  padding: 3vw 4vw;
+
+  justify-content: space-between;
+}
+.career-assistance .career-assistance-content {
+  margin-left: 35px;
+}
+.career-assistance .career-assistance-content-title {
+  color: #54536d;
+}
+
+.career-assistance-content-button {
+  color: #9b5dc6;
+  border: 1px solid #9b5dc6;
+  background: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  display: block;
+  width: fit-content;
+  margin-top: 30px;
+  font-weight: bold;
+  text-decoration: none;
+}

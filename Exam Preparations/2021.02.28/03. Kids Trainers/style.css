@@ -1,0 +1,205 @@
+@import url("https://use.fontawesome.com/releases/v5.15.0/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+
+.nav .logo img {
+  width: 90%;
+}
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #41bead;
+  color: white;
+  align-items: center;
+  padding: 10px 10vw;
+}
+.navigation {
+  display: flex;
+  list-style: none;
+}
+
+.navigation li a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  font-weight: bold;
+}
+.logo {
+  max-width: 150px;
+}
+header .page-title {
+  background: #ffb402;
+  margin-top: 0;
+  color: white;
+  padding: 2vw 10vw;
+  text-align: center;
+}
+header .page-title h1 {
+  font-size: 36px;
+}
+header .page-title p {
+  max-width: 50%;
+  text-align: center;
+  margin: 20px auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+}
+main .main-trainers {
+  display: flex;
+  justify-content: space-around;
+  margin: 5vw;
+}
+main .main-trainers .main-trainer {
+  display: flex;
+  justify-content: space-between;
+}
+.main-trainer-img {
+  border-radius: 200px;
+  border: 10px solid #41bead;
+  width: 150px;
+  height: 150px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+.main-trainer-img img {
+  width: 100%;
+  border-radius: 200px;
+}
+.main-trainer-info {
+  max-width: 400px;
+  margin-left: 25px;
+}
+h2 {
+  color: #41bead;
+  font-size: 28px;
+}
+.main-trainer-info .main-trainer-info-position {
+  color: #afb4ba;
+}
+
+.trainers {
+  display: flex;
+  justify-content: space-between;
+  margin: 10vw 15vw;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 3vw;
+}
+.trainer {
+  text-align: center;
+  width: 250px;
+}
+.trainer-image {
+  width: 150px;
+  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 800px;
+  border: 10px solid #41bead;
+  overflow: hidden;
+  margin: auto;
+}
+.trainer-image img {
+  max-width: 100%;
+  border-radius: 150px;
+}
+h3 {
+  color: #41bead;
+  margin-bottom: 5px;
+}
+.trainer-info {
+  color: #afb4ba;
+}
+.trainer-info p {
+  color: #afb4ba;
+  margin-top: 0px;
+}
+.form {
+  background: #66b9f8;
+  color: white;
+  border: 10px solid #92cdfb;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  padding-bottom: 5vw;
+}
+.form > h1 {
+  margin-top: 2vw;
+}
+.form > p {
+  width: 55%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.form .kids-team-form input {
+  border: 1px solid white;
+  background: none;
+
+  padding: 10px 10px;
+  color: white;
+  border-radius: 6px;
+  margin: 10px;
+}
+.kids-team-form input::placeholder {
+  color: white;
+  padding-left: 10px;
+}
+.form .kids-team-form input:last-child {
+  background: #ff9100;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  text-transform: uppercase;
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #565656;
+  color: white;
+  border-top: 8px solid #919191;
+  padding: 10px 10vw 1vw 10vw;
+  align-items: left;
+}
+h4 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+body > footer > section > ul {
+  padding-left: 0px;
+}
+footer section ul li {
+  list-style: none;
+  line-height: 1.6;
+}
+footer section ul li a {
+  text-decoration: none;
+  color: #edeaea;
+}
+body > footer > section:last-child > ul {
+  display: flex;
+}
+body > footer > section:last-child > ul > li > a > i {
+  display: flex;
+  font-size: 35px;
+  width: 35px;
+}
+body > footer > section:last-child > ul > li {
+  margin: 6px;
+}

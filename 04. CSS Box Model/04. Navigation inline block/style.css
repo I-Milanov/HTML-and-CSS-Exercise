@@ -1,0 +1,29 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+header {
+  border-bottom: 1px solid black;
+}
+body {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+h1,
+nav {
+  display: inline-block;
+}
+h1 {
+  margin-right: 50px;
+}
+body > header > nav > ul > li {
+  display: inline-block;
+  padding: 10px;
+  color: 104, 180, 113;
+}
+body > header > nav > ul > li > a {
+  text-decoration: none;
+  color: #009d00;
+}
+header h1 {
+  text-transform: uppercase;
+}

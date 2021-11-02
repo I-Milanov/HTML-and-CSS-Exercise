@@ -1,0 +1,33 @@
+footer {
+  background: #2c2c3a;
+  color: white;
+  justify-content: space-between;
+  display: flex;
+  padding: 2vw 4vw;
+}
+footer .footer-lists {
+  flex-basis: 3;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer article {
+  align-items: left;
+  text-align: left;
+}
+footer article ul {
+  padding-left: 0;
+}
+footer article ul > li {
+  list-style: none;
+  line-height: 2;
+}
+footer article h3 {
+  color: #9b5dc6;
+}
+footer .social-media .links-icons i {
+  margin: 6px 10px;
+  font-size: 26px;
+}
+footer > article.social-media > div > a > i {
+  color: white;
+}

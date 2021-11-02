@@ -1,0 +1,35 @@
+@media all and (max-width: 600px) {
+  #about > article.w3-col.m6.w3-padding-large.w3-hide-small {
+    display: none;
+  }
+  #about > article {
+    width: 100%;
+  }
+  #menu > article {
+    width: 100%;
+  }
+  body {
+    font-size: 20px;
+  }
+  body > section > article > article {
+    display: none;
+  }
+  #about > article > p {
+    font-size: 22px;
+  }
+  #menu .w3-padding-large h4 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  #contact p {
+    font-size: 19px;
+  }
+
+  #contact > p.w3-text-blue-grey.w3-large {
+    font-size: 22px;
+  }
+  #contact > p:nth-child(5) {
+    font-size: 19px;
+  }
+}

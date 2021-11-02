@@ -1,0 +1,24 @@
+body table {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(221, 221, 221);
+}
+tbody :hover {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+table thead th {
+  text-align: left;
+}
+
+table tr:nth-child(odd) td {
+  background: rgb(241, 241, 241);
+}
+th {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(221, 221, 221);
+}
+table td {
+  border-style: solid;
+}

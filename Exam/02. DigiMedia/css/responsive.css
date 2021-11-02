@@ -1,0 +1,126 @@
+@media all and (max-width: 600px) {
+  .container-fluid.hero > img {
+    display: none;
+  }
+  .container-fluid.hero h1 {
+    margin-top: 40px;
+  }
+  .navbar {
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  #home > section.container > .navbar > a {
+    margin-right: 0px;
+    display: block;
+    margin: auto;
+  }
+  #home > section.container > .navbar > a > img {
+    width: 140px;
+  }
+  #home > section.container-fluid.hero > article {
+    text-align: center;
+  }
+
+  #home > section.container-fluid.hero > article > article > a {
+    display: block;
+    max-width: 400px;
+    text-align: center;
+  }
+  #home > section.container-fluid.hero > article > article > a {
+    display: block;
+    max-width: 340px;
+  }
+
+  #home > section.container-fluid.hero > article > p {
+    font-size: 18px;
+  }
+  #home > section.container-fluid.hero > article > article > a {
+    margin: auto;
+  }
+  #home > section.container-fluid.hero > article > article {
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  #about-us {
+    text-align: center;
+  }
+  #about-us
+    > div
+    > div.container
+    > div
+    > div.col-12.col-sm-12.col-lg-4.service-txt
+    > div
+    > a {
+    display: block;
+    max-width: 340px;
+    margin: auto;
+  }
+  #about-us > .container-fluid > .container > .row {
+    flex-direction: column;
+  }
+  #about-us
+    > div
+    > div.container
+    > div
+    > div.col-12.col-sm-12.col-lg-4.service-txt
+    > div {
+    margin-bottom: 100px;
+  }
+  #about-us
+    > div
+    > div.container
+    > div
+    > div.col-12.col-sm-12.col-lg-4.service-txt
+    > h2 {
+    padding: 10px 50px;
+  }
+  .col-sm-6 {
+    max-width: 100%;
+    text-align: left;
+    height: 600px;
+  }
+  .col-sm-6 p {
+    font-size: 20px;
+    line-height: 1.8;
+    font-weight: 500;
+  }
+  .col-sm-6 img {
+    height: 90px;
+  }
+  .service-box {
+    min-height: 500px;
+  }
+  .about {
+    text-align: center;
+  }
+  .about > .container > .row > .col-12 > p {
+    font-size: 24px;
+  }
+  #contact-us {
+    text-align: center;
+  }
+  /* Na kartinkata butona go nqma */
+  .contact-btn {
+    display: none;
+  }
+  .contact-nav > li {
+    display: block;
+  }
+  footer h6 {
+    padding-bottom: 20px;
+  }
+  footer h3 {
+    padding: 0 30px;
+  }
+  #home {
+    width: 100%;
+  }
+  section.about .col-sm-12 {
+    margin-top: 40px;
+  }
+  #home > section.container {
+    margin-left: 35px;
+    padding: 0;
+  }
+}

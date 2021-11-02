@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 16px;
+  margin: 16px;
+  background-color: white;
+  border-width: 0.4rem;
+  border-color: black;
+  border-style: solid;
+  max-width: 304px;
+}
+li img {
+  width: 100%;
+}
